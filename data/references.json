@@ -1,0 +1,157 @@
+{
+  "references": [
+    {
+      "claim_id": "pew-world-2020",
+      "title": "How the Global Religious Landscape Changed From 2010 to 2020",
+      "statement_ar": "في 2020: المسيحيون 2.27 مليار (28.8%)، المسلمون 2.02 مليار (25.6%)، غير المنتمين 1.91 مليار (24.2%)، الهندوس 1.18 مليار (14.9%)، البوذيون 324 مليونًا (4.1%)، أديان أخرى 172 مليونًا (2.2%)، اليهود 14.8 مليونًا (0.2%). نمو المسلمين يعود أساسًا إلى صغر الأعمار وارتفاع الخصوبة، ونحو 99% من الهندوس و59% من المسلمين يعيشون في آسيا والمحيط الهادئ.",
+      "statement_en": "In 2020: Christians 2.27bn (28.8%), Muslims 2.02bn (25.6%), unaffiliated 1.91bn (24.2%), Hindus 1.18bn (14.9%), Buddhists 324m (4.1%), other 172m (2.2%), Jews 14.8m (0.2%). Muslim growth is mainly due to a young age structure and high fertility; about 99% of Hindus and 59% of Muslims live in Asia-Pacific; 95% of Hindus live in India.",
+      "year": 2020, "published": "2025-06-09",
+      "publisher": "Pew Research Center",
+      "url": "https://www.pewresearch.org/religion/2025/06/09/how-the-global-religious-landscape-changed-from-2010-to-2020/"
+    },
+    {
+      "claim_id": "pew-country-table-2020",
+      "title": "Religious Composition by Country, 2010-2020",
+      "statement_ar": "تقديرات التركيب الديني لـ201 دولة وإقليم لعامي 2010 و2020، مبنية على أكثر من 2700 تعداد ومسح؛ ومنها أرقام الدول الاثنتي عشرة في هذا الأطلس.",
+      "statement_en": "Religious composition estimates for 201 countries and territories for 2010 and 2020, built from more than 2,700 censuses and surveys; the source of every country figure in this atlas.",
+      "year": 2020, "published": "2025-06-09",
+      "publisher": "Pew Research Center",
+      "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    },
+    {
+      "claim_id": "pew-europe-2020",
+      "title": "10. Religion in Europe",
+      "statement_ar": "أوروبا 2020: المسيحيون 505 ملايين (67.1%)، غير المنتمين 190 مليونًا (25.3%)، المسلمون 46 مليونًا (6.0%). الهجرة عامل تغيّر داخل المناطق لا على مستوى العالم.",
+      "statement_en": "Europe 2020: Christians 505m (67.1%), unaffiliated 190m (25.3%), Muslims 46m (6.0%). Migration changes religious composition within regions, not at the global level.",
+      "year": 2020, "published": "2025-06-09",
+      "publisher": "Pew Research Center",
+      "url": "https://www.pewresearch.org/religion/2025/06/09/religion-in-europe/"
+    },
+    {
+      "claim_id": "pew-switching-islam-13",
+      "title": "4. Religious switching into and out of Islam (13 countries)",
+      "statement_ar": "من 36 دولة شملها المسح، كان في 13 منها عدد كافٍ من المسلمين للتحليل؛ وفي كل هذه الدول ترك الإسلام أو دخله 3% أو أقل من البالغين. في الولايات المتحدة قال 20% من المسلمين إنهم نشؤوا خارج الإسلام، وأغلبهم نشأ مسيحيًا.",
+      "statement_en": "Of 36 countries surveyed, 13 had enough Muslims to analyze; in each, 3% or fewer of adults left or entered Islam. In the US, 20% of Muslims said they were raised outside Islam, most of them Christian.",
+      "year": 2025, "published": "2025-03-26",
+      "publisher": "Pew Research Center",
+      "url": "https://www.pewresearch.org/religion/2025/03/26/religious-switching-into-and-out-of-islam/"
+    },
+    {
+      "claim_id": "pew-us-converts-2018",
+      "title": "The share of Americans who leave Islam is offset by those who become Muslim",
+      "statement_ar": "نحو ربع المسلمين البالغين في أمريكا (23%) معتنقون، ويقابلهم تقريبًا من تركوا الإسلام، فالأثر الصافي شبه معدوم. نحو ربع المعتنقين قالوا إنهم فضّلوا عقائد الإسلام أو تعاليمه، و21% قرؤوا النصوص أو درسوا الإسلام قبل القرار.",
+      "statement_en": "About a quarter of US Muslim adults (23%) are converts, roughly offset by those who left Islam, so the net effect is a wash. About a quarter of converts said they preferred Islam's beliefs or teachings; 21% read religious texts or studied Islam first.",
+      "year": 2018, "published": "2018-01-26",
+      "publisher": "Pew Research Center",
+      "url": "https://www.pewresearch.org/short-reads/2018/01/26/the-share-of-americans-who-leave-islam-is-offset-by-those-who-become-muslim/"
+    },
+    {
+      "claim_id": "cambridge-cis-female-2013",
+      "title": "Narratives of Conversion to Islam in Britain: Female Perspectives",
+      "statement_ar": "تقرير جمع أكثر من أربعين امرأة بريطانية اعتنقن الإسلام للحديث عن رحلاتهن وأثرها في الفرد والأسرة، وعن معالجة الإعلام السطحية للموضوع.",
+      "statement_en": "Report bringing together more than forty British women converts to reflect on their journeys, the effect on individuals and families, and shallow media coverage of the topic.",
+      "year": 2013, "published": null,
+      "publisher": "Centre of Islamic Studies, University of Cambridge",
+      "url": "https://www.cis.cam.ac.uk/research/previous-research/narratives-of-conversion-phase-1/"
+    },
+    {
+      "claim_id": "cambridge-cis-male-2016",
+      "title": "Narratives of Conversion to Islam in Britain: Male Perspectives",
+      "statement_ar": "تقرير عن 46 رجلًا بريطانيًا من خلفيات متنوعة اعتنقوا الإسلام؛ يوثّق العزلة التي يشعر بها كثير من المعتنقين الجدد، وإحساسهم بأنهم أقلية داخل أقلية.",
+      "statement_en": "Report on 46 British men from diverse backgrounds who became Muslim; it records the isolation many new converts feel and a sense of being a minority inside a minority.",
+      "year": 2016, "published": "2016-02",
+      "publisher": "Centre of Islamic Studies, University of Cambridge",
+      "url": "https://www.cis.cam.ac.uk/research/previous-research/narratives-of-conversion-phase-2/"
+    },
+    {
+      "claim_id": "van-nieuwkerk-2006",
+      "title": "Women Embracing Islam: Gender and Conversion in the West (ed. Karin van Nieuwkerk)",
+      "statement_ar": "كتاب محرَّر عن نساء غربيات اعتنقن الإسلام؛ من الدوافع المشتركة: مكانة الأسرة والجماعة، والمعايير الأخلاقية، وعقلانية العقيدة وروحانيتها، مع التنبيه إلى أنه لا يوجد عامل واحد يفسّر الجميع.",
+      "statement_en": "Edited volume on Western women converts; shared motivations include regard for family and community, moral and ethical standards, and the rationality and spirituality of the theology, while no single factor explains all cases.",
+      "year": 2006, "published": null,
+      "publisher": "University of Texas Press",
+      "url": "https://utpress.utexas.edu/9780292713024/"
+    },
+    {
+      "claim_id": "kose-british-converts",
+      "title": "Conversion to Islam: A Study of Native British Converts (Ali Köse)",
+      "statement_ar": "دراسة لتجارب 70 بريطانيًا أصليًا اعتنقوا الإسلام: خلفياتهم وأنماط التحول ودوافعه، مع فصل عن التحول عبر التصوف.",
+      "statement_en": "Study of 70 native British converts: their backgrounds, patterns and motifs of conversion, with a chapter on conversion through Sufism.",
+      "year": 1996, "published": null,
+      "publisher": "Routledge",
+      "url": "https://books.google.com/books/about/Conversion_to_Islam.html?id=5tvXAAAAMAAJ"
+    },
+    {
+      "claim_id": "zebiri-converts",
+      "title": "British Muslim Converts: Choosing Alternative Lives (Kate Zebiri)",
+      "statement_ar": "دراسة قائمة على مقابلات مع معتنقين بريطانيين، تعرض التحول قرارًا شخصيًا طويل التفكير، وتبحث دور المعتنقين وسطاءَ ثقافيين بين المسلمين وغيرهم.",
+      "statement_en": "Interview-based study of British converts that presents conversion as a long-considered personal decision and examines converts as cultural mediators between Muslims and others.",
+      "year": 2008, "published": null,
+      "publisher": "Oneworld",
+      "url": "https://books.google.com/books/about/British_Muslim_Converts.html?id=mvrXAAAAMAAJ"
+    },
+    {
+      "claim_id": "quran-112",
+      "title": "Qur'an 112 (al-Ikhlas)",
+      "statement_ar": "﴿قُلْ هُوَ اللَّهُ أَحَدٌ ۝ اللَّهُ الصَّمَدُ ۝ لَمْ يَلِدْ وَلَمْ يُولَدْ ۝ وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ﴾",
+      "statement_en": "God is One and eternal; He neither begets nor was begotten, and nothing is comparable to Him (paraphrase).",
+      "year": null, "published": null,
+      "publisher": "The Qur'an (text via Quran.com)",
+      "url": "https://quran.com/112"
+    },
+    {
+      "claim_id": "quran-3-45",
+      "title": "Qur'an 3:45",
+      "statement_ar": "بشارة مريم بكلمة من الله اسمه المسيح عيسى ابن مريم، وجيهًا في الدنيا والآخرة.",
+      "statement_en": "Mary is given good news of a word from God whose name is the Messiah, Jesus son of Mary, honored in this world and the next (paraphrase).",
+      "year": null, "published": null,
+      "publisher": "The Qur'an (text via Quran.com)",
+      "url": "https://quran.com/3/45"
+    },
+    {
+      "claim_id": "quran-19",
+      "title": "Qur'an 19 (Maryam)",
+      "statement_ar": "سورة كاملة تحمل اسم مريم وتروي قصتها وولادة عيسى عليه السلام.",
+      "statement_en": "A full chapter named after Mary, telling her story and the birth of Jesus.",
+      "year": null, "published": null,
+      "publisher": "The Qur'an (text via Quran.com)",
+      "url": "https://quran.com/19"
+    },
+    {
+      "claim_id": "quran-2-256",
+      "title": "Qur'an 2:256",
+      "statement_ar": "﴿لَا إِكْرَاهَ فِي الدِّينِ﴾",
+      "statement_en": "There is no compulsion in religion (paraphrase).",
+      "year": null, "published": null,
+      "publisher": "The Qur'an (text via Quran.com)",
+      "url": "https://quran.com/2/256"
+    },
+    {
+      "claim_id": "quran-3-190",
+      "title": "Qur'an 3:190",
+      "statement_ar": "في خلق السماوات والأرض واختلاف الليل والنهار آيات لأولي الألباب.",
+      "statement_en": "The creation of the heavens and earth and the alternation of night and day are signs for people of understanding (paraphrase).",
+      "year": null, "published": null,
+      "publisher": "The Qur'an (text via Quran.com)",
+      "url": "https://quran.com/3/190"
+    },
+    {
+      "claim_id": "quran-13-28",
+      "title": "Qur'an 13:28",
+      "statement_ar": "﴿أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ﴾",
+      "statement_en": "In the remembrance of God hearts find rest (paraphrase).",
+      "year": null, "published": null,
+      "publisher": "The Qur'an (text via Quran.com)",
+      "url": "https://quran.com/13/28"
+    },
+    {
+      "claim_id": "quran-62-9",
+      "title": "Qur'an 62:9",
+      "statement_ar": "إذا نودي للصلاة يوم الجمعة فاسعوا إلى ذكر الله وذروا البيع.",
+      "statement_en": "When the call to prayer is made on Friday, hasten to the remembrance of God and leave trade aside (paraphrase).",
+      "year": null, "published": null,
+      "publisher": "The Qur'an (text via Quran.com)",
+      "url": "https://quran.com/62/9"
+    }
+  ]
+}

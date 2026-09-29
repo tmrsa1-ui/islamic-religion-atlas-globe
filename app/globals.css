@@ -1,0 +1,87 @@
+/* Night palette and typeface adapted from the prior project Falak (see /about). Colors live only here. */
+@font-face{font-family:"IBM Plex Sans Arabic";font-weight:400;font-display:swap;src:url("/fonts/plex-arabic-arabic-400.woff2") format("woff2");unicode-range:U+0600-06FF,U+0750-077F,U+0870-08FF,U+FB50-FDFF,U+FE70-FEFF,U+200C-200E,U+2010-2011,U+204F,U+2E41}
+@font-face{font-family:"IBM Plex Sans Arabic";font-weight:400;font-display:swap;src:url("/fonts/plex-arabic-latin-400.woff2") format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans Arabic";font-weight:500;font-display:swap;src:url("/fonts/plex-arabic-arabic-500.woff2") format("woff2");unicode-range:U+0600-06FF,U+0750-077F,U+0870-08FF,U+FB50-FDFF,U+FE70-FEFF,U+200C-200E,U+2010-2011,U+204F,U+2E41}
+@font-face{font-family:"IBM Plex Sans Arabic";font-weight:500;font-display:swap;src:url("/fonts/plex-arabic-latin-500.woff2") format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans Arabic";font-weight:600;font-display:swap;src:url("/fonts/plex-arabic-arabic-600.woff2") format("woff2");unicode-range:U+0600-06FF,U+0750-077F,U+0870-08FF,U+FB50-FDFF,U+FE70-FEFF,U+200C-200E,U+2010-2011,U+204F,U+2E41}
+@font-face{font-family:"IBM Plex Sans Arabic";font-weight:600;font-display:swap;src:url("/fonts/plex-arabic-latin-600.woff2") format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans Arabic";font-weight:700;font-display:swap;src:url("/fonts/plex-arabic-arabic-700.woff2") format("woff2");unicode-range:U+0600-06FF,U+0750-077F,U+0870-08FF,U+FB50-FDFF,U+FE70-FEFF,U+200C-200E,U+2010-2011,U+204F,U+2E41}
+@font-face{font-family:"IBM Plex Sans Arabic";font-weight:700;font-display:swap;src:url("/fonts/plex-arabic-latin-700.woff2") format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink: #131A1F;
+  --ocean: #1A2332;
+  --limestone: #EAE7E0;
+  --raised: #F4F2EC;
+  --copper: #8A6520;
+  --copper-paper: #7A5818;
+  --copper-glow: #C29A4E;
+  --verdigris: #2E7A63;
+  --verdigris-paper: #256652;
+  --verdigris-glow: #6FB39C;
+  --muted-paper: #4A555B;
+  --muted-night: #9AA5AB;
+  --clay-paper: #8A4E2E;
+  --clay-night: #D29A76;
+  /* Globe materials, mixed from the tokens above only */
+  --ocean-lit: color-mix(in oklab, var(--ocean) 88%, var(--limestone));
+  --land-wash: color-mix(in oklab, var(--ocean) 66%, var(--limestone));
+  --rim-copper: var(--copper-glow);
+  --font: "IBM Plex Sans Arabic", system-ui, sans-serif;
+  --bar-h: 64px;
+}
+
+/* Two reading contexts. Tailwind colors (fg, muted, bg, surface, rule, accent, accent2, clay) resolve per context. */
+.night {
+  --fg: 234 231 224; --muted: 154 165 171; --bg: 19 26 31; --surface: 26 35 50; --rule: 38 50 64;
+  --accent: 194 154 78; --accent2: 111 179 156; --clay: 210 154 118; --field: 26 35 50;
+  color: rgb(var(--fg)); background-color: rgb(var(--bg));
+}
+.paper {
+  --fg: 19 26 31; --muted: 74 85 91; --bg: 244 242 236; --surface: 234 231 224; --rule: 193 195 192;
+  --accent: 122 88 24; --accent2: 37 102 82; --clay: 138 78 46; --field: 255 255 255;
+  color: rgb(var(--fg)); background-color: rgb(var(--bg));
+}
+
+html { -webkit-text-size-adjust: 100%; }
+body { @apply font-sans antialiased; line-height: 1.7; }
+a { color: rgb(var(--accent)); text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+a:hover { color: rgb(var(--fg)); }
+:focus-visible { outline: 2px solid var(--copper-glow); outline-offset: 2px; }
+::selection { background: var(--copper); color: var(--raised); }
+
+.card { @apply rounded-[2px] border border-rule p-4 sm:p-5; }
+.chip { @apply inline-flex min-h-[36px] items-center rounded-[2px] border border-rule px-3 text-sm text-fg no-underline transition-colors hover:border-accent hover:text-fg; }
+.chip-on { @apply border-accent2 bg-surface text-accent2; }
+.h2 { @apply mb-3 text-lg font-semibold; }
+.kicker { @apply text-xs text-muted; font-variant-numeric: tabular-nums; }
+.num { font-variant-numeric: tabular-nums; }
+.btn { @apply inline-flex min-h-[44px] items-center justify-center gap-2 rounded-[2px] border border-accent px-4 text-sm font-medium text-accent no-underline transition-colors hover:bg-surface hover:text-fg; }
+.field { @apply w-full rounded-[2px] border border-rule bg-field px-3 py-2 text-base text-fg placeholder:text-muted focus:border-accent focus:outline-none; }
+[dir="rtl"] .ltr-num { direction: ltr; unicode-bidi: isolate; }
+
+/* Stage: the globe host glows faintly behind the Earth. */
+.stage-glow { background: radial-gradient(closest-side circle at 50% 50%, color-mix(in oklab, var(--ocean-lit) 55%, transparent) 0%, transparent 100%) center / min(130vmin, 1400px) min(130vmin, 1400px) no-repeat, var(--ink); }
+
+/* Bars grow from the reading start. */
+@keyframes grow { from { transform: scaleX(0); } }
+.bar-fill { transform-origin: left; animation: grow 800ms cubic-bezier(.2,.7,.2,1) both; }
+[dir="rtl"] .bar-fill { transform-origin: right; }
+
+/* Notebook index: numbers come from a counter so the tab text stays the one-word title. */
+.nb-index { counter-reset: nb; }
+.nb-tab { counter-increment: nb; }
+.nb-tab::before { content: counter(nb, decimal-leading-zero); display: block; font-size: 13px; font-weight: 600; line-height: 1.2; font-variant-numeric: tabular-nums; }
+@keyframes sec-in { from { opacity: 0; transform: translateY(4px); } }
+.nb-panel:not([hidden]) { animation: sec-in 180ms ease-out; }
+@keyframes rise { from { opacity: 0; transform: translateY(6px); } }
+.rise { animation: rise 420ms ease-out both; }
+@keyframes toast { from { opacity: 0; transform: translateY(4px); } }
+.toast { animation: toast 160ms ease-out; }
+
+@media (max-width: 699px) { :root { --bar-h: 56px; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; } }

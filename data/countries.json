@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "year": 2020,
+    "claim_id": "pew-country-table-2020",
+    "publisher": { "ar": "مركز بيو للأبحاث", "en": "Pew Research Center" },
+    "published": "2025-06-09",
+    "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/",
+    "missing_label": { "ar": "لا رقم مؤكد", "en": "No verified figure" },
+    "group_labels": {
+      "christian": { "ar": "مسيحيون", "en": "Christians" },
+      "muslim": { "ar": "مسلمون", "en": "Muslims" },
+      "unaffiliated": { "ar": "بلا انتماء ديني", "en": "Unaffiliated" },
+      "hindu": { "ar": "هندوس", "en": "Hindus" },
+      "buddhist": { "ar": "بوذيون", "en": "Buddhists" },
+      "jewish": { "ar": "يهود", "en": "Jews" },
+      "other": { "ar": "أديان أخرى", "en": "Other religions" }
+    },
+    "note": { "ar": "كل الأرقام لعام 2020 من جدول بيو القُطري فقط؛ لا خلط مع قاعدة البيانات المسيحية العالمية.", "en": "All figures are 2020, from the Pew country table only; never mixed with the World Christian Database." }
+  },
+  "countries": [
+    {
+      "iso3": "FRA", "name": { "ar": "فرنسا", "en": "France" }, "year": 2020, "content_template_id": "christian",
+      "badge": { "ar": "لا أغلبية واحدة: إطار مسيحي وعلماني", "en": "No single majority: Christian and secular framing" },
+      "pct": { "christian": 46.5, "muslim": 9.1, "unaffiliated": 42.6, "hindu": null, "buddhist": null, "jewish": null, "other": null },
+      "counts": { "christian": null, "muslim": null }
+    },
+    {
+      "iso3": "SWE", "name": { "ar": "السويد", "en": "Sweden" }, "year": 2020, "content_template_id": "christian", "badge": null,
+      "pct": { "christian": 60.8, "muslim": 8.1, "unaffiliated": 28.9, "hindu": null, "buddhist": null, "jewish": null, "other": null },
+      "counts": { "christian": null, "muslim": null }
+    },
+    {
+      "iso3": "USA", "name": { "ar": "الولايات المتحدة", "en": "United States" }, "year": 2020, "content_template_id": "christian", "badge": null,
+      "pct": { "christian": 64.0, "muslim": 1.2, "unaffiliated": 29.7, "hindu": null, "buddhist": null, "jewish": 1.7, "other": null },
+      "counts": { "christian": { "value": 217000000, "label": { "ar": "نحو 217 مليون مسيحي", "en": "about 217 million Christians" } }, "muslim": null }
+    },
+    {
+      "iso3": "DEU", "name": { "ar": "ألمانيا", "en": "Germany" }, "year": 2020, "content_template_id": "christian", "badge": null,
+      "pct": { "christian": 56.2, "muslim": 6.5, "unaffiliated": 36.1, "hindu": null, "buddhist": null, "jewish": null, "other": null },
+      "counts": { "christian": null, "muslim": null }
+    },
+    {
+      "iso3": "GBR", "name": { "ar": "المملكة المتحدة", "en": "United Kingdom" }, "year": 2020, "content_template_id": "christian",
+      "badge": { "ar": "لا أغلبية واحدة: إطار مسيحي وعلماني", "en": "No single majority: Christian and secular framing" },
+      "pct": { "christian": 49.4, "muslim": 6.4, "unaffiliated": 40.2, "hindu": 1.7, "buddhist": null, "jewish": null, "other": null },
+      "counts": { "christian": null, "muslim": null }
+    },
+    {
+      "iso3": "IND", "name": { "ar": "الهند", "en": "India" }, "year": 2020, "content_template_id": "hindu", "badge": null,
+      "pct": { "christian": 2.2, "muslim": 15.2, "unaffiliated": null, "hindu": 79.4, "buddhist": null, "jewish": null, "other": null },
+      "counts": { "christian": null, "muslim": { "value": 213000000, "label": { "ar": "نحو 213 مليون مسلم", "en": "about 213 million Muslims" } } }
+    },
+    {
+      "iso3": "JPN", "name": { "ar": "اليابان", "en": "Japan" }, "year": 2020, "content_template_id": "unaffiliated", "badge": null,
+      "pct": { "christian": 2.2, "muslim": null, "unaffiliated": 57.5, "hindu": null, "buddhist": 37.2, "jewish": null, "other": null },
+      "counts": { "christian": null, "muslim": null }
+    },
+    {
+      "iso3": "THA", "name": { "ar": "تايلاند", "en": "Thailand" }, "year": 2020, "content_template_id": "buddhist_ea", "badge": null,
+      "pct": { "christian": 1.0, "muslim": 4.5, "unaffiliated": null, "hindu": null, "buddhist": 94.4, "jewish": null, "other": null },
+      "counts": { "christian": null, "muslim": null, "buddhist": { "value": 67600000, "label": { "ar": "نحو 67.6 مليون بوذي", "en": "about 67.6 million Buddhists" } } }
+    },
+    {
+      "iso3": "NGA", "name": { "ar": "نيجيريا", "en": "Nigeria" }, "year": 2020, "content_template_id": "christian",
+      "badge": { "ar": "إطار مسيحي بجوار أغلبية مسلمة", "en": "Christian framing beside a Muslim majority" },
+      "pct": { "christian": 43.4, "muslim": 56.1, "unaffiliated": null, "hindu": null, "buddhist": null, "jewish": null, "other": null },
+      "counts": {
+        "christian": { "value": 93000000, "label": { "ar": "نحو 93 مليون مسيحي", "en": "about 93 million Christians" } },
+        "muslim": { "value": 120000000, "label": { "ar": "نحو 120 مليون مسلم", "en": "about 120 million Muslims" } }
+      }
+    },
+    {
+      "iso3": "BRA", "name": { "ar": "البرازيل", "en": "Brazil" }, "year": 2020, "content_template_id": "christian", "badge": null,
+      "pct": { "christian": 80.7, "muslim": null, "unaffiliated": 13.5, "hindu": null, "buddhist": null, "jewish": null, "other": 5.7 },
+      "counts": { "christian": { "value": 168000000, "label": { "ar": "نحو 168 مليون مسيحي", "en": "about 168 million Christians" } }, "muslim": null }
+    },
+    {
+      "iso3": "EGY", "name": { "ar": "مصر", "en": "Egypt" }, "year": 2020, "content_template_id": "muslim_majority",
+      "badge": { "ar": "بطاقة زائر: وصف لا دعوة", "en": "Visitor card: describes, does not preach" },
+      "pct": { "christian": 4.8, "muslim": 95.2, "unaffiliated": null, "hindu": null, "buddhist": null, "jewish": null, "other": null },
+      "counts": { "christian": null, "muslim": { "value": 104000000, "label": { "ar": "نحو 104 ملايين مسلم", "en": "about 104 million Muslims" } } }
+    },
+    {
+      "iso3": "CAN", "name": { "ar": "كندا", "en": "Canada" }, "year": 2020, "content_template_id": "christian", "badge": null,
+      "pct": { "christian": 53.3, "muslim": 4.9, "unaffiliated": 34.6, "hindu": null, "buddhist": null, "jewish": null, "other": null },
+      "counts": { "christian": null, "muslim": null }
+    }
+  ]
+}

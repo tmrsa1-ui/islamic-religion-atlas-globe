@@ -1,0 +1,8 @@
+{
+  "policy": {
+    "ar": "لا يُضاف مركز إلا بعد التحقق من رابط رسمي له. القائمة فارغة حتى يتم التحقق.",
+    "en": "A center is added only after its official URL is verified. The list is empty until then."
+  },
+  "fields": ["id", "iso3", "name_ar", "name_en", "city_ar", "city_en", "official_url", "verified_on"],
+  "centers": []
+}

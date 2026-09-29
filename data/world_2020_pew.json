@@ -1,0 +1,31 @@
+{
+  "year": 2020,
+  "claim_id": "pew-world-2020",
+  "publisher": { "ar": "مركز بيو للأبحاث", "en": "Pew Research Center" },
+  "published": "2025-06-09",
+  "url": "https://www.pewresearch.org/religion/2025/06/09/how-the-global-religious-landscape-changed-from-2010-to-2020/",
+  "groups": [
+    { "key": "christian", "label": { "ar": "مسيحيون", "en": "Christians" }, "count": 2270000000, "count_label": { "ar": "2.27 مليار", "en": "2.27 billion" }, "pct": 28.8 },
+    { "key": "muslim", "label": { "ar": "مسلمون", "en": "Muslims" }, "count": 2020000000, "count_label": { "ar": "2.02 مليار", "en": "2.02 billion" }, "pct": 25.6 },
+    { "key": "unaffiliated", "label": { "ar": "بلا انتماء ديني", "en": "Religiously unaffiliated" }, "count": 1910000000, "count_label": { "ar": "1.91 مليار", "en": "1.91 billion" }, "pct": 24.2 },
+    { "key": "hindu", "label": { "ar": "هندوس", "en": "Hindus" }, "count": 1180000000, "count_label": { "ar": "1.18 مليار", "en": "1.18 billion" }, "pct": 14.9 },
+    { "key": "buddhist", "label": { "ar": "بوذيون", "en": "Buddhists" }, "count": 324000000, "count_label": { "ar": "324 مليون", "en": "324 million" }, "pct": 4.1 },
+    { "key": "other", "label": { "ar": "أديان أخرى", "en": "Other religions" }, "count": 172000000, "count_label": { "ar": "172 مليون", "en": "172 million" }, "pct": 2.2 },
+    { "key": "jewish", "label": { "ar": "يهود", "en": "Jews" }, "count": 14800000, "count_label": { "ar": "14.8 مليون", "en": "14.8 million" }, "pct": 0.2 }
+  ],
+  "europe_2020": {
+    "claim_id": "pew-europe-2020",
+    "year": 2020,
+    "url": "https://www.pewresearch.org/religion/2025/06/09/religion-in-europe/",
+    "groups": [
+      { "key": "christian", "label": { "ar": "مسيحيون", "en": "Christians" }, "count": 505000000, "count_label": { "ar": "505 ملايين", "en": "505 million" }, "pct": 67.1 },
+      { "key": "unaffiliated", "label": { "ar": "بلا انتماء ديني", "en": "Religiously unaffiliated" }, "count": 190000000, "count_label": { "ar": "190 مليونًا", "en": "190 million" }, "pct": 25.3 },
+      { "key": "muslim", "label": { "ar": "مسلمون", "en": "Muslims" }, "count": 46000000, "count_label": { "ar": "46 مليونًا", "en": "46 million" }, "pct": 6.0 }
+    ]
+  },
+  "growth_note": {
+    "ar": "نمو أعداد المسلمين بين 2010 و2020 يفسّره أساسًا صغر متوسط الأعمار وارتفاع الخصوبة، ومعهما الهجرة داخل بعض المناطق؛ لا التحوّل الديني. لا توجد في هذا الأطلس أرقام سنوية لمن يعتنقون الإسلام.",
+    "en": "Muslim growth from 2010 to 2020 is explained mainly by a young age structure and high fertility, plus migration within some regions, not by conversion. This atlas holds no annual convert counts."
+  },
+  "growth_claim_ids": ["pew-world-2020", "pew-switching-islam-13"]
+}

@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "note": "Five templates. Headlines <=18 words. one_concept 60-90 words. Attractions only from Köse, van Nieuwkerk, Zebiri, Cambridge CIS 2013/2016, Pew US 2018 (plus Pew 2025 switching data for context).",
+    "country_headline": { "ar": "{country}، تقديرات بيو 2020: {list}.", "en": "{country}, Pew 2020 estimates: {list}." },
+    "referral": {
+      "ar": "هذا الأطلس لا يصدر أحكامًا شرعية في الردة أو الحدود أو أحكام الجنسين أو السياسة المعاصرة. اسأل عالمًا مؤهلًا أو جهة إفتاء معتمدة في بلدك، وراجع المصادر في صفحة المراجع.",
+      "en": "This atlas does not issue religious rulings on apostasy, hudud penalties, gender rulings or contemporary politics. Please ask a qualified scholar or a recognized fatwa body in your country, and see the sources on the References page."
+    },
+    "section_titles": {
+      "curiosity": { "title_ar": "المدخل", "title_en": "Entry" },
+      "misconceptions": { "title_ar": "التصوّر", "title_en": "Impressions" },
+      "attractions": { "title_ar": "الوقفة", "title_en": "What holds" },
+      "objections": { "title_ar": "التحفّظ", "title_en": "Reservations" },
+      "one_concept": { "title_ar": "الأصل", "title_en": "One idea" },
+      "next_step": { "title_ar": "المرجع", "title_en": "Sources" }
+    }
+  },
+  "templates": {
+    "christian": {
+      "id": "christian",
+      "label": { "ar": "إطار مسيحي", "en": "Christian framing" },
+      "default_badge": { "ar": "مقدمة بإطار مسيحي، اختيرت من إحصاءات البلد لا منك", "en": "Christian-framed introduction, chosen from country statistics, not from you" },
+      "sections": {
+        "curiosity": [
+          { "id": "chr-c1", "ar": "المسيحيون والمسلمون معًا أكثر من نصف العالم في 2020: 28.8% و25.6%.", "en": "Christians and Muslims together were over half the world in 2020: 28.8% and 25.6%.", "claim_ids": ["pew-world-2020"] },
+          { "id": "chr-c2", "ar": "في القرآن سورة كاملة باسم مريم أم المسيح.", "en": "The Qur'an has a full chapter named after Mary, mother of Jesus.", "claim_ids": ["quran-19"] }
+        ],
+        "misconceptions": [
+          { "id": "chr-m1", "ar": "خرافة: الإسلام ينمو بالتحوّل أساسًا. بيو: السبب صغر الأعمار والخصوبة، والتحوّل أثره ضئيل.", "en": "Myth: Islam grows mostly through conversion. Pew: mainly youth and fertility; switching changes little.", "claim_ids": ["pew-world-2020", "pew-switching-islam-13"] }
+        ],
+        "attractions": [
+          { "id": "chr-a1", "ar": "نساء غربيات اعتنقن الإسلام ذكرن الأسرة والجماعة والأخلاق وعقيدة عقلانية روحانية (فان نيوكيرك 2006).", "en": "Western women converts cited family, community, ethics, and a rational, spiritual theology (van Nieuwkerk 2006).", "claim_ids": ["van-nieuwkerk-2006"] },
+          { "id": "chr-a2", "ar": "نحو ربع المعتنقين في أمريكا قالوا إنهم فضّلوا عقائد الإسلام أو تعاليمه (بيو 2018).", "en": "About a quarter of US converts said they preferred Islam's beliefs or teachings (Pew 2018).", "claim_ids": ["pew-us-converts-2018"] }
+        ],
+        "objections": [
+          { "id": "chr-o1", "ar": "اعتراض: الإسلام يرفض المسيح. القرآن يسميه المسيح ويكرمه، لكنه ينفي ألوهيته بوضوح.", "en": "Objection: Islam rejects Jesus. The Qur'an calls him the Messiah, yet plainly denies his divinity.", "claim_ids": ["quran-3-45", "quran-112"] },
+          { "id": "chr-o2", "ar": "ملاحظة صادقة: معتنقون بريطانيون تحدّثوا عن عزلة بعد التحول (كامبريدج 2016).", "en": "Honest note: British converts often reported isolation after conversion (Cambridge 2016).", "claim_ids": ["cambridge-cis-male-2016"] }
+        ],
+        "one_concept": {
+          "title": { "ar": "عيسى عليه السلام في القرآن", "en": "ʿĪsā (Jesus) in the Qur'an" },
+          "ar": "يتحدث القرآن عن المسيح عيسى ابن مريم بإجلال كبير؛ فيسميه المسيح وكلمةً من الله، وُلد من مريم (آل عمران 45)، وتروي سورة كاملة باسمها قصتها (سورة مريم). ويعدّه المسلمون من أعظم الأنبياء. لكن الفرق مع العقيدة المسيحية ينبغي أن يُقال بوضوح لا أن يُخفى: يعلّم الإسلام أن الله واحد لم يلد ولم يولد (الإخلاص)، فعيسى نبي مكرَّم يُحَبّ ويُتَّبع، لا إله يُعبد. وهذا الوضوح احترام للقارئ المسيحي لا انتقاص منه.",
+          "en": "The Qur'an speaks of Jesus, called ʿĪsā, with deep honor. It names him the Messiah and a word from God, born to Mary (3:45), and a whole chapter, Maryam, tells her story (19). Muslims count him among the greatest prophets. The difference from Christian belief should be stated plainly, not blurred: Islam teaches that God is One and has no son (112), so Jesus is honored as a prophet, not worshipped as divine.",
+          "claim_ids": ["quran-3-45", "quran-19", "quran-112"]
+        },
+        "next_step": [
+          { "id": "chr-n1", "ar": "الخطوة التالية: افتح مصادر كل رقم، ثم اقرأ كيف بنيناه.", "en": "Next: open the sources behind each figure, then read how we built them.", "href": "/references", "claim_ids": ["pew-country-table-2020"] }
+        ]
+      }
+    },
+    "unaffiliated": {
+      "id": "unaffiliated",
+      "label": { "ar": "إطار علماني", "en": "Secular framing" },
+      "default_badge": { "ar": "مقدمة بإطار علماني، اختيرت من إحصاءات البلد لا منك", "en": "Secular-framed introduction, chosen from country statistics, not from you" },
+      "sections": {
+        "curiosity": [
+          { "id": "unf-c1", "ar": "غير المنتمين دينيًا كانوا 24.2% من العالم في 2020، ثالث أكبر مجموعة.", "en": "People with no religion were 24.2% of the world in 2020, the third-largest group.", "claim_ids": ["pew-world-2020"] },
+          { "id": "unf-c2", "ar": "يدعو القرآن مرارًا إلى التفكر في الطبيعة وتعاقب الليل والنهار.", "en": "The Qur'an repeatedly asks readers to reflect on nature, night and day.", "claim_ids": ["quran-3-190"] }
+        ],
+        "misconceptions": [
+          { "id": "unf-m1", "ar": "خرافة: الإسلام ينمو بالتحوّل أساسًا. بيو: السبب صغر الأعمار والخصوبة، والتحوّل أثره ضئيل.", "en": "Myth: Islam grows mostly through conversion. Pew: mainly youth and fertility; switching changes little.", "claim_ids": ["pew-world-2020", "pew-switching-islam-13"] }
+        ],
+        "attractions": [
+          { "id": "unf-a1", "ar": "معتنقون بريطانيون وصفوا التحول قرارًا شخصيًا بعد تفكير طويل (زبيري 2008).", "en": "British converts described conversion as a long-considered, personal decision (Zebiri 2008).", "claim_ids": ["zebiri-converts"] },
+          { "id": "unf-a2", "ar": "في مسح بيو الأمريكي، قال 21% من المعتنقين إنهم درسوا الإسلام أو نصوصه قبل القرار.", "en": "In a Pew US survey, 21% of converts said they studied Islam or its texts first.", "claim_ids": ["pew-us-converts-2018"] }
+        ],
+        "objections": [
+          { "id": "unf-o1", "ar": "اعتراض: الإيمان تعطيل للعقل. القرآن يجعل الكون آيات لأولي الألباب.", "en": "Objection: faith means switching off reason. The Qur'an calls nature a sign for thinkers.", "claim_ids": ["quran-3-190"] },
+          { "id": "unf-o2", "ar": "ملاحظة صادقة: معتنقون بريطانيون تحدّثوا عن عزلة بعد التحول (كامبريدج 2016).", "en": "Honest note: British converts often reported isolation after conversion (Cambridge 2016).", "claim_ids": ["cambridge-cis-male-2016"] }
+        ],
+        "one_concept": {
+          "title": { "ar": "التفكّر", "en": "Tafakkur: reflection" },
+          "ar": "كثير ممن لا يتبعون دينًا يقدّرون الدليل والأسئلة المفتوحة. وفي الإسلام كلمة للتفكير المتأني في العالم: التفكّر. يقول القرآن إن في خلق السماوات والأرض واختلاف الليل والنهار آياتٍ لأولي الألباب (آل عمران 190). فالتأمل يُقدَّم طريقًا إلى الإيمان لا تهديدًا له. والدعوة هنا أن تفحص الادعاءات بنفسك وبهدوء، وأن تصل إلى قناعتك بحرية كاملة، فلا إكراه في الدين (البقرة 256).",
+          "en": "Many people without a religion value evidence and open questions. Islam has a word for careful thinking about the world: tafakkur, reflection. The Qur'an says the creation of the heavens and the earth, and the alternation of night and day, are signs for people of understanding (3:190). Reflection is presented as a path toward faith, not a threat to it. You are invited to examine the claims yourself and reach your own conclusion freely (2:256).",
+          "claim_ids": ["quran-3-190", "quran-2-256"]
+        },
+        "next_step": [
+          { "id": "unf-n1", "ar": "الخطوة التالية: افتح مصادر كل رقم، ثم اقرأ كيف بنيناه.", "en": "Next: open the sources behind each figure, then read how we built them.", "href": "/references", "claim_ids": ["pew-country-table-2020"] }
+        ]
+      }
+    },
+    "hindu": {
+      "id": "hindu",
+      "label": { "ar": "إطار هندوسي", "en": "Hindu framing" },
+      "default_badge": { "ar": "مقدمة بإطار هندوسي، اختيرت من إحصاءات البلد لا منك", "en": "Hindu-framed introduction, chosen from country statistics, not from you" },
+      "sections": {
+        "curiosity": [
+          { "id": "hin-c1", "ar": "الهندوس 14.9% من العالم في 2020، ونحو 95% منهم يعيشون في الهند.", "en": "Hindus were 14.9% of the world in 2020; about 95% of them live in India.", "claim_ids": ["pew-world-2020"] },
+          { "id": "hin-c2", "ar": "نحو 59% من مسلمي العالم يعيشون في آسيا والمحيط الهادئ، مع 99% من الهندوس.", "en": "About 59% of the world's Muslims live in Asia-Pacific, alongside 99% of Hindus.", "claim_ids": ["pew-world-2020"] }
+        ],
+        "misconceptions": [
+          { "id": "hin-m1", "ar": "خرافة: الإسلام دين عربي أساسًا. أغلب المسلمين يعيشون في آسيا والمحيط الهادئ.", "en": "Myth: Islam is mainly an Arab religion. Most Muslims live in Asia and the Pacific.", "claim_ids": ["pew-world-2020"] },
+          { "id": "hin-m2", "ar": "خرافة: الإسلام ينمو بالتحوّل أساسًا. بيو: السبب صغر الأعمار والخصوبة، والتحوّل أثره ضئيل.", "en": "Myth: Islam grows mostly through conversion. Pew: mainly youth and fertility; switching changes little.", "claim_ids": ["pew-world-2020", "pew-switching-islam-13"] }
+        ],
+        "attractions": [
+          { "id": "hin-a1", "ar": "نساء غربيات اعتنقن الإسلام وجدن عقيدته عقلانية وروحانية معًا (فان نيوكيرك 2006).", "en": "Western women converts found Islamic theology both rational and spiritual (van Nieuwkerk 2006).", "claim_ids": ["van-nieuwkerk-2006"] },
+          { "id": "hin-a2", "ar": "تنبيه نطاق: دراسات المعتنقين لدينا بريطانية وأمريكية، ولا تصف تجارب هندية.", "en": "Scope note: our convert studies are British and American; none describe Indian experiences.", "claim_ids": ["kose-british-converts", "pew-us-converts-2018"] }
+        ],
+        "objections": [
+          { "id": "hin-o1", "ar": "قلق: الضغط لتغيير الدين. القرآن يقرر: لا إكراه في الدين.", "en": "Concern: pressure to convert. The Qur'an states there is no compulsion in religion.", "claim_ids": ["quran-2-256"] }
+        ],
+        "one_concept": {
+          "title": { "ar": "التوحيد: وحدانية الله", "en": "Tawhid: the oneness of God" },
+          "ar": "في قلب الإسلام التوحيد، أي الإيمان بأن الله واحد. تقول سورة الإخلاص القصيرة إن الله أحد صمد، لم يلد ولم يولد، ولم يكن له كفوًا أحد. ولهذا لا يستخدم المسلمون الصور أو التماثيل في العبادة، ويتوجهون بها إلى الله وحده. وهذا فرق عقدي حقيقي مع كثير من التقاليد الهندوسية، نذكره هنا للتعريف لا للضغط؛ فالقرآن نفسه يقرر أنه لا إكراه في الدين (البقرة 256).",
+          "en": "At the center of Islam is tawhid, the oneness of God. The short chapter al-Ikhlas states that God is One and eternal, neither begetting nor begotten, and that nothing is comparable to Him (112). For this reason Muslim worship uses no images and is directed to God alone. This is a real theological difference from many Hindu traditions, stated here to inform, not to pressure: the Qur'an itself says there is no compulsion in religion (2:256).",
+          "claim_ids": ["quran-112", "quran-2-256"]
+        },
+        "next_step": [
+          { "id": "hin-n1", "ar": "الخطوة التالية: افتح مصادر كل رقم، ثم اقرأ كيف بنيناه.", "en": "Next: open the sources behind each figure, then read how we built them.", "href": "/references", "claim_ids": ["pew-country-table-2020"] }
+        ]
+      }
+    },
+    "buddhist_ea": {
+      "id": "buddhist_ea",
+      "label": { "ar": "إطار بوذي / شرق آسيوي", "en": "Buddhist / East Asian framing" },
+      "default_badge": { "ar": "مقدمة بإطار بوذي شرق آسيوي، اختيرت من إحصاءات البلد لا منك", "en": "Buddhist / East Asian framing, chosen from country statistics, not from you" },
+      "sections": {
+        "curiosity": [
+          { "id": "bud-c1", "ar": "بلغ عدد البوذيين نحو 324 مليونًا في 2020، أي 4.1% من العالم.", "en": "Buddhists numbered about 324 million in 2020, 4.1% of the world.", "claim_ids": ["pew-world-2020"] },
+          { "id": "bud-c2", "ar": "نحو 59% من مسلمي العالم يعيشون في آسيا والمحيط الهادئ.", "en": "About 59% of the world's Muslims live in Asia and the Pacific.", "claim_ids": ["pew-world-2020"] }
+        ],
+        "misconceptions": [
+          { "id": "bud-m1", "ar": "خرافة: الإسلام دين عربي أساسًا. أغلب المسلمين يعيشون في آسيا والمحيط الهادئ.", "en": "Myth: Islam is mainly an Arab religion. Most Muslims live in Asia and the Pacific.", "claim_ids": ["pew-world-2020"] },
+          { "id": "bud-m2", "ar": "خرافة: الإسلام ينمو بالتحوّل أساسًا. بيو: السبب صغر الأعمار والخصوبة، والتحوّل أثره ضئيل.", "en": "Myth: Islam grows mostly through conversion. Pew: mainly youth and fertility; switching changes little.", "claim_ids": ["pew-world-2020", "pew-switching-islam-13"] }
+        ],
+        "attractions": [
+          { "id": "bud-a1", "ar": "دراسة لـ70 معتنقًا بريطانيًا خصّصت فصلًا للتحول عبر التصوف (كوسه 1996).", "en": "A study of 70 British converts devoted a chapter to conversion through Sufism (Köse 1996).", "claim_ids": ["kose-british-converts"] },
+          { "id": "bud-a2", "ar": "تنبيه نطاق: دراسات المعتنقين لدينا بريطانية وأمريكية، ولا تصف تجارب شرق آسيوية.", "en": "Scope note: our convert studies are British and American; none describe East Asian experiences.", "claim_ids": ["kose-british-converts", "pew-us-converts-2018"] }
+        ],
+        "objections": [
+          { "id": "bud-o1", "ar": "سؤال: هل في الإسلام ممارسة تأملية؟ القرآن يربط ذكر الله بطمأنينة القلوب.", "en": "Question: does Islam have contemplative practice? The Qur'an ties remembrance of God to hearts at rest.", "claim_ids": ["quran-13-28"] }
+        ],
+        "one_concept": {
+          "title": { "ar": "الذِّكر", "en": "Dhikr: remembrance of God" },
+          "ar": "تقدّر تقاليد بوذية وشرق آسيوية كثيرة الانتباه والسكون والممارسة اليومية. وفي الإسلام أيضًا ممارسة للانتباه المستمر تسمى الذِّكر، أي تذكّر الله. وتشمل الصلاة وترديد عبارات قصيرة في التسبيح والحمد بهدوء. ويقول القرآن: ﴿أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ﴾ (الرعد 28). أما الفرق ففي الوجهة: الذكر لا يفرغ الذهن ولا يطلب الخلاص من الذات، بل يوجّه القلب والعقل معًا إلى خالق واحد (الإخلاص).",
+          "en": "Many Buddhist and East Asian traditions value attention, stillness and daily practice. Islam has a practice of steady attention too, called dhikr, the remembrance of God. It includes prayer and the quiet repetition of short phrases of praise. The Qur'an says that in the remembrance of God hearts find rest (13:28). The difference lies in its focus: dhikr does not empty the mind but turns it toward one Creator (112).",
+          "claim_ids": ["quran-13-28", "quran-112"]
+        },
+        "next_step": [
+          { "id": "bud-n1", "ar": "الخطوة التالية: افتح مصادر كل رقم، ثم اقرأ كيف بنيناه.", "en": "Next: open the sources behind each figure, then read how we built them.", "href": "/references", "claim_ids": ["pew-country-table-2020"] }
+        ]
+      }
+    },
+    "muslim_majority": {
+      "id": "muslim_majority",
+      "label": { "ar": "أغلبية مسلمة: بطاقة زائر", "en": "Muslim majority: visitor card" },
+      "default_badge": { "ar": "بطاقة زائر: وصف لا دعوة", "en": "Visitor card: describes, does not preach" },
+      "sections": {
+        "curiosity": [
+          { "id": "mm-c1", "ar": "المسلمون 25.6% من العالم في 2020، أي نحو 2.02 مليار إنسان.", "en": "Muslims were 25.6% of the world in 2020, about 2.02 billion people.", "claim_ids": ["pew-world-2020"] },
+          { "id": "mm-c2", "ar": "هذه البطاقة تصف البلد للزائر، ولا توجّه دعوة إلى مسلميه.", "en": "This card describes the country for visitors; it does not preach to its Muslims.", "claim_ids": [] }
+        ],
+        "misconceptions": [
+          { "id": "mm-m1", "ar": "في الدول ذات الأغلبية المسلمة أقليات دينية أيضًا؛ الأشرطة تعرض النسب الموثقة لعام 2020.", "en": "Muslim-majority countries also have religious minorities; the bars show verified 2020 shares.", "claim_ids": ["pew-country-table-2020"] }
+        ],
+        "attractions": [],
+        "objections": [
+          { "id": "mm-o1", "ar": "لا يتخذ هذا الأطلس موقفًا من النقاشات الدينية أو السياسية المحلية.", "en": "This atlas takes no position on local religious or political debates.", "claim_ids": [] }
+        ],
+        "one_concept": {
+          "title": { "ar": "صلاة الجمعة", "en": "Jumuʿah: the Friday congregation" },
+          "ar": "من الممارسات الإسلامية التي تشكّل إيقاع الأسبوع وقد يلاحظها الزائر: صلاة الجمعة، وهي الصلاة الجماعية الأسبوعية. يقول القرآن إنه إذا نودي للصلاة يوم الجمعة فليسعَ المؤمنون إلى ذكر الله وليتركوا البيع (الجمعة 9). وفي بلد أغلب سكانه مسلمون تصبح هذه الصلاة إيقاعًا أسبوعيًا مشتركًا. هذه الفقرة تصف ما يراه الزائر فحسب، ولا تخاطب مسلمي البلد، فهم أعلم بدينهم، ولا تتخذ موقفًا من أي نقاش محلي.",
+          "en": "For visitors, one Islamic practice shapes the week: Jumuʿah, the Friday congregational prayer. The Qur'an tells believers that when the call to prayer is made on Friday, they should hasten to the remembrance of God and leave trade aside (62:9). In a Muslim-majority country this becomes a shared weekly rhythm. This note only describes what a visitor meets; it does not address the country's Muslims, who know their own faith.",
+          "claim_ids": ["quran-62-9", "pew-country-table-2020"]
+        },
+        "next_step": [
+          { "id": "mm-n1", "ar": "الخطوة التالية: افتح مصدر بيو 2020 وملاحظة المنهج.", "en": "Next: open the Pew 2020 source and our method note.", "href": "/references", "claim_ids": ["pew-country-table-2020"] }
+        ]
+      }
+    }
+  }
+}
