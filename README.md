@@ -1,4 +1,30 @@
-# Islamic Religion Atlas · أطلس الدين الإسلامي
+<div align="center">
+
+# 🕌 أطلس الدين الإسلامي · Islamic Religion Atlas
+
+**مقدمة للإسلام تبدأ من بلد القارئ أو خلفيته التي يختارها، على كرة أرضية ليلية تفاعلية، وكل رقم فيها بمصدره.**
+
+<a href="https://illustrious-flan-0afa94.netlify.app"><img src="https://img.shields.io/badge/%D8%AC%D8%B1%D9%91%D8%A8%20%D8%A7%D9%84%D8%A2%D9%86-Live%20Demo-0b7285?style=for-the-badge" alt="جرّب الآن"></a>
+<br>
+<a href="https://github.com/tmrsa1-ui/islamic-religion-atlas-globe/actions/workflows/ci.yml"><img src="https://github.com/tmrsa1-ui/islamic-religion-atlas-globe/actions/workflows/ci.yml/badge.svg?branch=main" alt="CI"></a>
+<img src="https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=nextdotjs" alt="Next.js 16">
+<img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+<img src="https://img.shields.io/badge/Three.js-000?style=flat-square&logo=threedotjs" alt="Three.js">
+<img src="https://img.shields.io/badge/%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA-Pew%202020-8a6d3b?style=flat-square" alt="Pew 2020">
+<img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" alt="MIT">
+
+<br><br>
+
+<img src="docs/screenshots/home.png" alt="الكرة الليلية مع الدول الاثنتي عشرة واختيار الخلفية" width="820">
+
+<table><tr>
+<td><img src="docs/screenshots/country.png" alt="ملف الهند: التركيب الديني والتبويبات الست" width="560"></td>
+<td><img src="docs/screenshots/mobile.png" alt="الأطلس على الجوال" width="220"></td>
+</tr></table>
+
+</div>
+
+---
 
 | Field | Value |
 |---|---|
@@ -29,7 +55,8 @@
 ## Run
 
 ```bash
-cd ~/atlas-project
+git clone https://github.com/tmrsa1-ui/islamic-religion-atlas-globe.git
+cd islamic-religion-atlas-globe
 pnpm install
 pnpm dev            # http://localhost:3000
 ```
@@ -109,3 +136,7 @@ lib/            data loaders, journey engine, abstain detector, i18n, tiny markd
 data/           frozen JSON + method.md
 scripts/        check-data.mjs, acceptance.mjs
 ```
+
+## License
+
+[MIT](LICENSE) · [Security](SECURITY.md) · [Changelog](CHANGELOG.md). Data from Pew Research Center under its terms of use; fonts under OFL.
